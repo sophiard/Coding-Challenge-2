@@ -14,3 +14,11 @@ let employee = { name: "Anakin Skywalker", age: 25, department: "Jedi", isActive
 
 employee.department = "Sith";
 console.log(employee);
+
+let customers = [{ name: "Luke Skywalker", email: "luke@gmail.com", purchaseAmount: 1600 },
+     { name: "Leia Organa", email: "leia@gmail.com", purchaseAmount: 4500 },
+    { name: "Han Solo", email: "han@gmail.com", purchaseAmount: 1000 }];
+
+customers.push({ name: "Darth Vader", email: "vader@gmail.com", purchaseAmount: 9000 });
+
+console.log(customers);
