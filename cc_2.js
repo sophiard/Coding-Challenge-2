@@ -20,5 +20,12 @@ let customers = [{ name: "Luke Skywalker", email: "luke@gmail.com", purchaseAmou
     { name: "Han Solo", email: "han@gmail.com", purchaseAmount: 1000 }];
 
 customers.push({ name: "Darth Vader", email: "vader@gmail.com", purchaseAmount: 9000 });
-
 console.log(customers);
+
+
+const order = {orderId: 356,customerName: "Spiderman",amount: 10000};
+function calculateTax(amount) {return amount * 0.1};
+console.log("Order Id number:", order.orderId);
+console.log("Customer name:", order.customerName);
+console.log("Order amount:", order.amount);
+console.log("Tax amount:", calculateTax(order.amount));
